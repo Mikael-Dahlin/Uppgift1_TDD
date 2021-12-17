@@ -27,7 +27,7 @@ public class Book {
     }
 
     public void setName(String name) {
-        this.name = name;
+        if(name!=null) this.name = name;
     }
 
     public String getAuthor() {
@@ -35,7 +35,7 @@ public class Book {
     }
 
     public void setAuthor(String author) {
-        this.author = author;
+        if(author!=null) this.author = author;
     }
 
     public String getPublished() {
@@ -43,7 +43,7 @@ public class Book {
     }
 
     public void setPublished(String published) {
-        this.published = published;
+        if(published!=null) this.published = published;
     }
 
     public int getPrice() {
@@ -67,7 +67,7 @@ public class Book {
     }
 
     public void setGenre(String genre) {
-        this.genre = genre;
+        if(genre!=null) this.genre = genre;
     }
 
     public double getAverageGrade() {

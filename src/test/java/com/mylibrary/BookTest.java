@@ -39,6 +39,7 @@ class BookTest {
         assertEquals(1, book.getComments().size());
     }
 
+    @Test
     void should_notSetValuesWithSettersWhenNull(){
         Book book = new Book("notNull","notNull","notNull","notNull",0,false);
 
